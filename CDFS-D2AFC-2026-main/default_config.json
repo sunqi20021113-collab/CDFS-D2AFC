@@ -1,0 +1,44 @@
+{
+    "common": {
+      "scr_class_num": 19,
+      "patch_size": 7,
+      "batch_task": 1,
+      "num_ways": 5,
+      "num_shots": 1,
+      "episode": 5000,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "d_emb": 128,
+      "src_input_dim": 76
+    },
+    "datasets": {
+      "YRD_GF5_1": {
+        "lambda1": 0.001,
+        "lambda2": 1.0,
+        "lambda": 2.0,
+        "sigma": 0.8,
+        "gamma": 0.7
+      },
+      "YRD_GF5_2": {
+        "lambda1": 0.01,
+        "lambda2": 0.01,
+        "lambda": 2.0,
+        "sigma": 0.8,
+        "gamma": 0.7
+      },
+      "GF5_YC": {
+        "lambda1": 0.01,
+        "lambda2": 1.0,
+        "lambda": 2.0,
+        "sigma": 0.2,
+        "gamma": 0.7
+      },
+      "IP": {
+        "lambda1": 0.001,
+        "lambda2": 1.0,
+        "lambda": 2.0,
+        "sigma": 0.8,
+        "gamma": 0.7
+      }
+    }
+  }
